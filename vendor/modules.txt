@@ -141,31 +141,8 @@ github.com/onsi/gomega/types
 # github.com/open-cluster-management/api v0.0.0-20210511122802-f38973154cbd
 ## explicit
 github.com/open-cluster-management/api/addon/v1alpha1
-github.com/open-cluster-management/api/client/addon/clientset/versioned
-github.com/open-cluster-management/api/client/addon/clientset/versioned/scheme
-github.com/open-cluster-management/api/client/addon/clientset/versioned/typed/addon/v1alpha1
-github.com/open-cluster-management/api/client/cluster/clientset/versioned
-github.com/open-cluster-management/api/client/cluster/clientset/versioned/scheme
-github.com/open-cluster-management/api/client/cluster/clientset/versioned/typed/cluster/v1
-github.com/open-cluster-management/api/client/cluster/clientset/versioned/typed/cluster/v1alpha1
-github.com/open-cluster-management/api/client/operator/clientset/versioned
-github.com/open-cluster-management/api/client/operator/clientset/versioned/fake
-github.com/open-cluster-management/api/client/operator/clientset/versioned/scheme
-github.com/open-cluster-management/api/client/operator/clientset/versioned/typed/operator/v1
-github.com/open-cluster-management/api/client/operator/clientset/versioned/typed/operator/v1/fake
-github.com/open-cluster-management/api/client/operator/informers/externalversions
-github.com/open-cluster-management/api/client/operator/informers/externalversions/internalinterfaces
-github.com/open-cluster-management/api/client/operator/informers/externalversions/operator
-github.com/open-cluster-management/api/client/operator/informers/externalversions/operator/v1
-github.com/open-cluster-management/api/client/operator/listers/operator/v1
-github.com/open-cluster-management/api/client/work/clientset/versioned
-github.com/open-cluster-management/api/client/work/clientset/versioned/fake
-github.com/open-cluster-management/api/client/work/clientset/versioned/scheme
-github.com/open-cluster-management/api/client/work/clientset/versioned/typed/work/v1
-github.com/open-cluster-management/api/client/work/clientset/versioned/typed/work/v1/fake
 github.com/open-cluster-management/api/cluster/v1
 github.com/open-cluster-management/api/cluster/v1alpha1
-github.com/open-cluster-management/api/operator/v1
 github.com/open-cluster-management/api/work/v1
 # github.com/openshift/api v0.0.0-20210331193751-3acddb19d360
 ## explicit
@@ -1018,6 +995,35 @@ k8s.io/utils/net
 k8s.io/utils/path
 k8s.io/utils/pointer
 k8s.io/utils/trace
+# open-cluster-management.io/api v0.0.0-20210519100007-dd8ab35c4e00
+## explicit
+open-cluster-management.io/api/addon/v1alpha1
+open-cluster-management.io/api/client/addon/clientset/versioned
+open-cluster-management.io/api/client/addon/clientset/versioned/scheme
+open-cluster-management.io/api/client/addon/clientset/versioned/typed/addon/v1alpha1
+open-cluster-management.io/api/client/cluster/clientset/versioned
+open-cluster-management.io/api/client/cluster/clientset/versioned/scheme
+open-cluster-management.io/api/client/cluster/clientset/versioned/typed/cluster/v1
+open-cluster-management.io/api/client/cluster/clientset/versioned/typed/cluster/v1alpha1
+open-cluster-management.io/api/client/operator/clientset/versioned
+open-cluster-management.io/api/client/operator/clientset/versioned/fake
+open-cluster-management.io/api/client/operator/clientset/versioned/scheme
+open-cluster-management.io/api/client/operator/clientset/versioned/typed/operator/v1
+open-cluster-management.io/api/client/operator/clientset/versioned/typed/operator/v1/fake
+open-cluster-management.io/api/client/operator/informers/externalversions
+open-cluster-management.io/api/client/operator/informers/externalversions/internalinterfaces
+open-cluster-management.io/api/client/operator/informers/externalversions/operator
+open-cluster-management.io/api/client/operator/informers/externalversions/operator/v1
+open-cluster-management.io/api/client/operator/listers/operator/v1
+open-cluster-management.io/api/client/work/clientset/versioned
+open-cluster-management.io/api/client/work/clientset/versioned/fake
+open-cluster-management.io/api/client/work/clientset/versioned/scheme
+open-cluster-management.io/api/client/work/clientset/versioned/typed/work/v1
+open-cluster-management.io/api/client/work/clientset/versioned/typed/work/v1/fake
+open-cluster-management.io/api/cluster/v1
+open-cluster-management.io/api/cluster/v1alpha1
+open-cluster-management.io/api/operator/v1
+open-cluster-management.io/api/work/v1
 # sigs.k8s.io/apiserver-network-proxy/konnectivity-client v0.0.15
 sigs.k8s.io/apiserver-network-proxy/konnectivity-client/pkg/client
 sigs.k8s.io/apiserver-network-proxy/konnectivity-client/proto/client

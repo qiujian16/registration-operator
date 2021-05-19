@@ -17,8 +17,8 @@ import (
 
 	logf "sigs.k8s.io/controller-runtime/pkg/log"
 
-	operatorclient "github.com/open-cluster-management/api/client/operator/clientset/versioned"
-	operatorapiv1 "github.com/open-cluster-management/api/operator/v1"
+	operatorclient "open-cluster-management.io/api/client/operator/clientset/versioned"
+	operatorapiv1 "open-cluster-management.io/api/operator/v1"
 )
 
 func TestIntegration(t *testing.T) {
